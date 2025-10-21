@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="3"> -->
+    <title>Zeyad's To-Do List</title>
+    <meta name="description" content="A simple accessible to-do list web app.">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header id="header">
+        <h1>Welcome to the Zeyad's To Do List</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section1>
+            <h2>TASKS</h2>
+            <input type="text" id="taskInput" placeholder="Enter a new task" aria-label="Task input">
+            <button id="addTaskButton">Add Task</button>
+            <ul id="taskList" aria-live="polite" aria-label="List of tasks">
+                <!-- Tasks will be dynamically added here -->
+            </ul>
+        </section1>
+        <section2>
+            <h2>Another Content Section</h2>
+            <p>This is another section of content on the page.</p>
+        </section2>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+
+     <script src="main.js"></script>
+</body>
+</html>
